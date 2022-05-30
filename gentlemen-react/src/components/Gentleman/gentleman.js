@@ -40,8 +40,8 @@ export function Gentleman() {
             <div className="gentleman__avatar-container">
               <img
                 className="gentleman__avatar"
-                src="/gentlemen-react/public/img/fary.jpg"
-                alt="The Fary pointing at you"
+                src="public/img/fary.jpg/"
+                alt="{item.name} pointing at you"
               />
               <span className="gentleman__initial">F</span>
             </div>
