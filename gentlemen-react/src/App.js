@@ -1,3 +1,4 @@
+import { Button } from './components/Button/button';
 import { Gentleman } from './components/Gentleman/gentleman';
 import { Info } from './components/Info/info';
 import './css/styles.css';
@@ -11,7 +12,7 @@ function App() {
         </header>
         <section className="controls">
           <Info></Info>
-          <button className="button button--select">Select all</button>
+          <Button></Button>
         </section>
         <main className="main">
           <ul className="gentlemen">
